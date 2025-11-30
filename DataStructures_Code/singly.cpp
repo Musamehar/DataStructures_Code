@@ -29,7 +29,7 @@ public:
     List() : list_head(nullptr) {}
     ~List() {
         while (!empty())
-            pop_front();  // delete first node repeatedly
+            pop_front(); 
     }
 
 
